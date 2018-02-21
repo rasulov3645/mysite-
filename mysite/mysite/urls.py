@@ -21,5 +21,5 @@ from webexample import urls
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^webexample/', include('webexample.urls')),
-    url(r'^$', include('mainApp.urls')),
+    url(r'^', include('mainApp.urls')),
 ]
